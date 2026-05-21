@@ -1,0 +1,14 @@
+﻿name: demo
+description: 示例测试套件 - 演示基础功能
+model: qwen2.5:0.5b
+test_cases:
+  - id: DEMO_001
+    name: 基础问候测试
+    task: 你好
+    assertions:
+      - type: not_empty
+  - id: DEMO_002
+    name: 功能测试示例
+    task: 这个产品有什么功能
+    assertions:
+      - type: not_empty
