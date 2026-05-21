@@ -1,0 +1,30 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 项目特定
+.env
+logs/
+*.log
+reports/
+*.html
+*.json
+backups/
+*.zip
+data/hardware_cache.json
+
+# 系统文件
+.DS_Store
+Thumbs.db
